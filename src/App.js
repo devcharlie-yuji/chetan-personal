@@ -7,10 +7,12 @@ import ViewAllMaps from "./Components/ViewAllMaps";
 import MapWithDraw from "./Components/MapWithDraw";
 import GeoJsonUploader from "./Components/GeoJsonUploader";
 import GeoJsonManager from "./Components/GeoJsonManager";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
     <div className="App">
+      <Toaster position="top-right" />
       <Router>
         {/* <GeoJsonUploader /> */}
         {/* <GeoJsonManager /> */}
